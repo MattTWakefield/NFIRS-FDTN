@@ -336,5 +336,3 @@ saveRDS(Incident_Summary, "./Output/Incident_Summary.rds")
 saveRDS(StrFrCauses, "./Output/StrFrCausese.rds")
 
 write.table(NFIRS, "C:/GIS/NFIRS-FDTN/FDTN2.txt", sep = "^", na = "", row.names = FALSE, quote = FALSE)
-
-?write.csv
